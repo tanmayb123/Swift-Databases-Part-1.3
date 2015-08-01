@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D30F931B6A67FB0013FF8E /* Chamados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30F921B6A67FB0013FF8E /* Chamados.swift */; };
+		C215E67E1B64254B00E98E80 /* additionInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215E67D1B64254B00E98E80 /* additionInfoCell.swift */; };
 		C219A4431B5836DF007237B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C219A4421B5836DF007237B9 /* AppDelegate.swift */; };
 		C219A4451B5836DF007237B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C219A4441B5836DF007237B9 /* ViewController.swift */; };
 		C219A4481B5836DF007237B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C219A4461B5836DF007237B9 /* Main.storyboard */; };
 		C219A44A1B5836DF007237B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C219A4491B5836DF007237B9 /* Images.xcassets */; };
 		C219A44D1B5836DF007237B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C219A44B1B5836DF007237B9 /* LaunchScreen.xib */; };
 		C219A4591B5836DF007237B9 /* SistemaChamadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C219A4581B5836DF007237B9 /* SistemaChamadosTests.swift */; };
+		C26C5F511B5C936F0047A01A /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C5F501B5C936F0047A01A /* FloatLabelTextView.swift */; };
+		C26C5F531B5C93830047A01A /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C5F521B5C93830047A01A /* FloatLabelTextField.swift */; };
+		C2847FFF1B59976D007954D2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2847FFE1B59976D007954D2 /* TableViewCell.swift */; };
+		C28480011B5999DA007954D2 /* ClienteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28480001B5999DA007954D2 /* ClienteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D30F921B6A67FB0013FF8E /* Chamados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chamados.swift; sourceTree = "<group>"; };
+		C215E67D1B64254B00E98E80 /* additionInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = additionInfoCell.swift; sourceTree = "<group>"; };
 		C219A43D1B5836DF007237B9 /* SistemaChamados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SistemaChamados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C219A4411B5836DF007237B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C219A4421B5836DF007237B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		C219A4521B5836DF007237B9 /* SistemaChamadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SistemaChamadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C219A4571B5836DF007237B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C219A4581B5836DF007237B9 /* SistemaChamadosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SistemaChamadosTests.swift; sourceTree = "<group>"; };
+		C26C5F501B5C936F0047A01A /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		C26C5F521B5C93830047A01A /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		C2847FFE1B59976D007954D2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C28480001B5999DA007954D2 /* ClienteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClienteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +89,18 @@
 		C219A43F1B5836DF007237B9 /* SistemaChamados */ = {
 			isa = PBXGroup;
 			children = (
+				C26C5F521B5C93830047A01A /* FloatLabelTextField.swift */,
+				C26C5F501B5C936F0047A01A /* FloatLabelTextView.swift */,
 				C219A4421B5836DF007237B9 /* AppDelegate.swift */,
 				C219A4441B5836DF007237B9 /* ViewController.swift */,
+				C215E67D1B64254B00E98E80 /* additionInfoCell.swift */,
+				C2847FFE1B59976D007954D2 /* TableViewCell.swift */,
 				C219A4461B5836DF007237B9 /* Main.storyboard */,
+				C28480001B5999DA007954D2 /* ClienteTableViewController.swift */,
 				C219A4491B5836DF007237B9 /* Images.xcassets */,
 				C219A44B1B5836DF007237B9 /* LaunchScreen.xib */,
 				C219A4401B5836DF007237B9 /* Supporting Files */,
+				01D30F921B6A67FB0013FF8E /* Chamados.swift */,
 			);
 			path = SistemaChamados;
 			sourceTree = "<group>";
@@ -156,6 +174,7 @@
 		C219A4351B5836DE007237B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Luan Felix Coelho";
 				TargetAttributes = {
@@ -212,8 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2847FFF1B59976D007954D2 /* TableViewCell.swift in Sources */,
+				01D30F931B6A67FB0013FF8E /* Chamados.swift in Sources */,
+				C26C5F511B5C936F0047A01A /* FloatLabelTextView.swift in Sources */,
 				C219A4451B5836DF007237B9 /* ViewController.swift in Sources */,
+				C215E67E1B64254B00E98E80 /* additionInfoCell.swift in Sources */,
+				C26C5F531B5C93830047A01A /* FloatLabelTextField.swift in Sources */,
 				C219A4431B5836DF007237B9 /* AppDelegate.swift in Sources */,
+				C28480011B5999DA007954D2 /* ClienteTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +434,7 @@
 				C219A45E1B5836DF007237B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C219A45F1B5836DF007237B9 /* Build configuration list for PBXNativeTarget "SistemaChamadosTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +443,7 @@
 				C219A4611B5836DF007237B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
